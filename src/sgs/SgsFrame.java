@@ -46,7 +46,7 @@ public class SgsFrame extends JFrame {
 	
 	private SgsFrame() {
 		setTitle("三国杀记牌器 左键减一 右键加一");
-		setSize(480, 300);
+		setSize(580, 300);
 		// setFont(new Font("Serif",Font.BOLD|Font.ITALIC,24));
 		init();
 		Dimension d = Toolkit.getDefaultToolkit().getScreenSize();
@@ -61,11 +61,11 @@ public class SgsFrame extends JFrame {
 		contentPane.setLayout(null);
 		resShowLable = new JLabel("");
 		resShowLable.setVerticalAlignment(SwingConstants.TOP);
-		resShowLable.setBounds(140, 15, 310, 230);
+		resShowLable.setBounds(140, 15, 410, 230);
 		// resShowLable.setBorder(BorderFactory.createLineBorder(Color.red));
 		// contentPane.add(resShowLable);
 		JScrollPane scroll = new JScrollPane(resShowLable);
-		scroll.setBounds(140, 15, 310, 230);
+		scroll.setBounds(140, 15, 410, 230);
 		// 设置垂直滚动条始终隐藏
 		scroll.setHorizontalScrollBarPolicy(JScrollPane.HORIZONTAL_SCROLLBAR_NEVER);
 		//设置水平滚动条自动出现
